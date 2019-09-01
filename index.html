@@ -20,7 +20,7 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About Me</a></li>
+							<!-- <li><a href="#one">Work Exerience</a></li> -->
 							<li><a href="#two">Projects</a></li>
 							<li><a href="#three">Resume</a></li>
 						</ul>
@@ -35,57 +35,119 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Chris Weaver</h1>
-							<p>UCSD 2020 Masters of Science, Computer Science</p>
+							<p>I'm a Master's student at UC San Diego pursuing an MS in Computer Science with a focus on
+         Artificial Intelligence and Computer Vision, and I expect to graduate in Spring 2020.
+         Before that, I graduated Summa Cum Laude with a BS in Computer Science also at UC San Diego. The last
+         two summers (2018 and 2019) I've been a Software Development Engineering
+         Intern at Amazon where I worked on the Media Services and Tax Platforms teams
+         respectively. </p>
+       <p>I'm currently looking for a full time Software/Research Engineering position for Fall 2020</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
+
 				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+
+    <!-- <section id="one" class="wrapper style2 spotlights">
+     <section>
+      <div class="content">
+       <div class="inner">
+        <h2>Work Experience</h2>
+        <div class="features">
+         <section>
+
+         <section>
+          <span class="icon major fa-chain"></span>
+          <h4>Implementation</h4>
+          <p>Blackjack simulator was built in Visual Studio using C# as a console application with no extra bells and whistles.</p>
+         </section>
+
+        </div>
+       </div>
+      </div>
+     </section>
+    </section> -->
+
+					<!-- <section id="one" class="wrapper style2 spotlights">
 						<section>
 							<img src="images/smile.png" alt="" data-position="center center" height="500px" width="500px" />
 							<div class="content">
 								<div class="inner">
 									<h2>About Me</h2>
-									<p></p>
+									<p>
+
+         </p>
 								</div>
 							</div>
 						</section>
-					</section>
+					</section> -->
 
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" class="wrapper style2 fade-up">
 						<div class="inner">
 							<h2>Projects</h2>
 							<p>Some projects I have been working on.</p>
 
 
 							<div class="features">
+
+        <section>
+         <span class="icon major fa-code"></span>
+         <h3>Chess AI</h3>
+         <p>Based on DeepMind's AlphaZero paper, competing with friends on who can
+            design, build, and train the best performing chess AI. Written with
+            Python/TensorFlow and using a GTX 1080TI for training.
+         </p>
+        </section>
+
+        <section>
+         <span class="icon major fa-code"></span>
+         <h3>Hard Negative Mining for Correspondance</h3>
+         <p>Working with Professor Manmohan Chandraker at UCSD, I am working on
+            applying new hard negative mining techniques to existing state of the
+            art correspondance networks. Specifically. I am modifying a PyTorch
+            implementation of SuperPoint to use random sampling, GPU based KNN, and
+            GPU based Locality Sensitive Hashing KNN to find hard negative examples
+            during training time.
+         </p>
+        </section>
+
+        <section>
+         <span class="icon major fa-code"></span>
+         <h3>Review Sentiment Classification</h3>
+         <p>As part of a NLP kaggle competition at UC San Diego, I built a
+            word-embedding based, semi-supervised review sentiment classifier. I
+            placed in the top 5% of all contestants.
+            The point of the contest was creative feature design - we were restricted to
+            using logistic regression for the final classification. My final design
+            used regularized document embeddings
+            (average of the word embeddings of the document) using FastText (trained
+            with both the review datset and web crawls).
+         </p>
+        </section>
+
+
 								<section>
 									<span class="icon major fa-code"></span>
 									<h3>Tables</h3>
-									<p>Tables is an Android application built by myself as well as a team of other students that I led. It allows UCSD to meet other students over a meal. It's goal is to make the task of meeting new people in an unfamiliar environment easier, more efficient, and more enjoyable. It has verified account creation, profile creation, an intelligent matching algorithm to match those that share similar interests, and a built in chat room. In the future, I hope to add machine learning for the matching algorithm and yelp integration into the chat room to allow users to locate the best place to eat within the application. </p>
-								</section>
-
-								<section>
-									<span class="icon major fa-chain"></span>
-									<h4>Implementation</h4>
-									<p>Tables was built in Android Studio with Java. We used Git/GitHub for version control and Firebase as the database to hold user information and for the chat rooms. The project also attempts a layered design. Following MVC principles, classes are divided to deal with a specific set of goals. Additionally, many industry document were created throughout the development of the application, such as User Stories, Requirements, and a Database Schema (just to name a few). </p>
-								</section>
-
-								<section>
-									<span class="icon major fa-code"></span>
-									<h3>Blackjack Simulator</h3>
-									<p>Blackjack Simulator is exactly what it sounds like: a program that simulates a blackjack game to predict the best move in a given situation. Given a hand, a number of players, a dealers face up card, and a deck state (that you can continuously update), it runs that situation many times for each possible move you could make (hit, stand, etc.) and calculates the expected return on each and reccomends the move that gives you the best average outcome.</p>
-								</section>
-
-								<section>
-									<span class="icon major fa-chain"></span>
-									<h4>Implementation</h4>
-									<p>Blackjack simulator was built in Visual Studio using C# as a console application with no extra bells and whistles.</p>
+									<p>Tables is an Android application built by a team of students at UCSD
+           led by myself. It allows UCSD to meet other students over a meal.
+           It's goal is to make the task of meeting new people in an unfamiliar
+           environment easier, more efficient, and more enjoyable.
+           It has verified account creation, profile creation, an intelligent
+           matching algorithm to match those that share similar interests, and a
+           built in chat room. Tables was built in Android Studio with Java.
+           We used Git/GitHub for version control and Firebase as the database
+           to hold user information and for the chat rooms. The project also
+           uses a layered design. Following MVC principles, classes are divided
+           to deal with a specific set of goals. Additionally, many industry
+           document were created throughout the development of the application,
+           such as User Stories, Requirements, and a Database Schema
+           (just to name a few). </p>
 								</section>
 
 							</div>
@@ -97,7 +159,6 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Resume</h2>
-							<p>The highlights of my professional and academic history.</p>
 
 							<embed src="images/resume.pdf" width="900px" height="1150px">
 
